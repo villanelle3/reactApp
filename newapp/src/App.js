@@ -7,6 +7,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <h1>teste</h1>
+          <div className="row">
+            <div className="col-md-4">teste</div>
+            <div className="col-md-4">teste</div>
+            <div className="col-md-4">teste</div>
+          </div>
         </p>
         <a
           className="App-link"
@@ -22,3 +27,5 @@ function App() {
 }
 
 export default App;
+
+// npm run build
