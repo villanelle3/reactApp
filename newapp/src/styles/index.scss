@@ -1,8 +1,9 @@
 $mobile: 767px;
-
+$cor: #7f1d1d;
 .navbar{
-  background-color: rgb(31, 53, 5);
+  background-color: $cor;
   color: white;
+  margin-bottom: 40px;
   .title{
     padding: 6px;
     font-size: 32px;
@@ -21,4 +22,8 @@ $mobile: 767px;
   @media screen and (min-width: 768px) and (max-width: 1023px) {
       max-width: 90%;
   }
+}
+
+.card{
+  margin-bottom: 40px;
 }
